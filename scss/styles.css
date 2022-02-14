@@ -1,0 +1,76 @@
+#bootstrap-overrides {
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #fffae9;
+}
+
+#bootstrap-overrides .nav-link {
+  color: black;
+}
+
+#bootstrap-overrides .navbar-nav .nav-item {
+  border-bottom: 1px solid red;
+  margin: 0 5px;
+  padding: 3px;
+}
+
+#bootstrap-overrides .card {
+  border: none;
+}
+
+#bootstrap-overrides .pedro-two-card .bg-dark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#bootstrap-overrides .pedro-two-card .bg-dark .card-img-overlay {
+  position: absolute;
+  font-size: 0.8em;
+}
+
+#bootstrap-overrides .pedro-two-card .bg-dark .card-img-overlay .card-text {
+  background-color: #c17d7d;
+}
+
+#bootstrap-overrides .pedro-film-description {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://static01.nyt.com/images/2021/12/19/magazine/19mag-almodovar-02/19mag-almodovar-02-mobileMasterAt3x.jpg");
+}
+
+#bootstrap-overrides .full-width-card .card-text {
+  top: 50%;
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  #bootstrap-overrides .full-width-card .card-text {
+    top: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    font-size: 1em;
+  }
+}
+
+#bootstrap-overrides .carousel-inner {
+  height: 390px;
+}
+
+#bootstrap-overrides table a {
+  text-decoration: none;
+  color: #0d6af4;
+}
+
+#bootstrap-overrides .footer {
+  background-color: black;
+}
+
+#bootstrap-overrides .footer p {
+  color: white;
+  font-weight: 300;
+}
+/*# sourceMappingURL=styles.css.map */
